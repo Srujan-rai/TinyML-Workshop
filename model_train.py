@@ -49,4 +49,4 @@ const unsigned int irisModel_len = {len(model_bytes)};
 with open("irisModel.h", "w") as f:
     f.write(convert_to_c_array(tflite_model))
 
-print("✔ irisModel.h generated successfully!")
+print(" irisModel.h generated successfully!")
