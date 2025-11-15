@@ -1,8 +1,4 @@
-
 #pragma once
-
-#pragma once
-
 #ifdef __has_attribute
 #define HAVE_ATTRIBUTE(x) __has_attribute(x)
 #else

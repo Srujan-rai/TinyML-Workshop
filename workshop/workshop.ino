@@ -78,10 +78,10 @@ void parseAndPredict(String line)
     }
 
     int cls = tf.classification;
-
-    Serial.print("Predicted class: ");
+    setosa
+        Serial.print("Predicted class: ");
     if (cls == 0)
-        Serial.println("Iris-setosa");
+        Serial.println("Iris-");
     else if (cls == 1)
         Serial.println("Iris-versicolor");
     else if (cls == 2)
